@@ -1,3 +1,4 @@
+const rive = require("@rive-app/canvas");
 const canvasElement = document.getElementById('canvas');
 
 const r = new rive.Rive({
