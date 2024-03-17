@@ -5,5 +5,7 @@ new rive.Rive({
   canvas: document.getElementById("canvas"),
   autoplay: true,
   stateMachines: "State Machine 1"
-  
+  onLoad: () => {
+    r.resizeDrawingSurfaceToCanvas();
+  }
 });
