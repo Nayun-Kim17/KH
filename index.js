@@ -1,6 +1,6 @@
+const canvasElement = document.getElementById('canvas');
 
-
-new rive.Rive({
+const r = new rive.Rive({
   src: "keiharu.riv",
   canvas: document.getElementById("canvas"),
   autoplay: true,
