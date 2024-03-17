@@ -1,0 +1,22 @@
+{
+  "name": "rivewithlisteners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eyeball.html",
+  "scripts": {
+    "start": "parcel eyeball.html --open",
+    "build": "parcel build eyeball.html"
+  },
+  "dependencies": {
+    "@rive-app/canvas": "1.0.95",
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
